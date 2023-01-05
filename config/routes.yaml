@@ -1,0 +1,9 @@
+controllers:
+    resource:
+        path: ../src/Controller/
+        namespace: App\Controller
+    type: attribute
+api_logs_count:
+    path: /api/logs/count
+    methods: ['GET']
+    controller: App\Controller\LogController::count

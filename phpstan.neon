@@ -1,0 +1,6 @@
+includes:
+    - vendor/phpstan/phpstan/conf/phpstan.neon
+parameters:
+    level: max
+    paths:
+        - src
