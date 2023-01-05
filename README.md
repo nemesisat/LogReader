@@ -21,3 +21,7 @@ The LogController and ParseLogCommand both use the ServiceStatusRepository to pe
 <p>php bin/console log:create</p>
 
 The file is at the moment in public directory name logs.txt
+
+<h3>Created The test case</h3>
+
+Create one test case which checks if the rest api endpoint is valid and return 200 response
