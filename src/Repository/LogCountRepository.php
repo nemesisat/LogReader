@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace App\Repository;
 use App\Entity\LogCount;
 use Doctrine\Bundle\DoctrineBundle\Repository\ServiceEntityRepository;
